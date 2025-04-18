@@ -1,0 +1,19 @@
+ * Serving Flask app 'openai_server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.199.189:8000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [14/Apr/2025 10:06:41] "OPTIONS /stream_openai_generate HTTP/1.1" 200 -
+{'messages': [{'text': '你好！我是你的聊天搭子。你可以跟我说说你的感受和想法，我会认真倾听并给予温暖的回应。今天有什么想分享的吗？', 'sender': 'bot', 'time': '2025-04-14T02:05:13.202Z'}, {'text': '你好呀，介绍一下自己吧', 'sender': 'user', 'time': '2025-04-14T02:06:41.930Z'}], 'base_url': 'https://api-inference.modelscope.cn/v1/', 'api_key': '27010a16-f313-4a31-8cff-9fe368b2f1d4', 'model': 'Qwen/QwQ-32B', 'newMessage': '你好呀，介绍一下自己吧'}
+[{'role': 'user', 'content': '你好呀，介绍一下自己吧'}]
+127.0.0.1 - - [14/Apr/2025 10:06:44] "POST /stream_openai_generate HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 10:09:36] "OPTIONS /stream_openai_generate HTTP/1.1" 200 -
+{'messages': [{'text': '你好！我是你的聊天搭子。你可以跟我说说你的感受和想法，我会认真倾听并给予温暖的回应。今天有什么想分享的吗？', 'sender': 'bot', 'time': '2025-04-14T02:05:13.202Z'}, {'text': '你好啊，介绍一下自己吧', 'sender': 'user', 'time': '2025-04-14T02:09:36.632Z'}], 'base_url': 'https://api-inference.modelscope.cn/v1/', 'api_key': '27010a16-f313-4a31-8cff-9fe368b2f1d4', 'model': 'Qwen/QwQ-32B', 'newMessage': '你好啊，介绍一下自己吧'}
+[{'role': 'user', 'content': '你好啊，介绍一下自己吧'}]
+127.0.0.1 - - [14/Apr/2025 10:09:37] "POST /stream_openai_generate HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 10:10:19] "OPTIONS /stream_openai_generate HTTP/1.1" 200 -
+{'messages': [{'text': '你好！我是你的聊天搭子。你可以跟我说说你的感受和想法，我会认真倾听并给予温暖的回应。今天有什么想分享的吗？', 'sender': 'bot', 'time': '2025-04-14T02:10:07.779Z'}, {'text': '9.9和9.11哪个大？', 'sender': 'user', 'time': '2025-04-14T02:10:19.207Z'}], 'base_url': 'https://api-inference.modelscope.cn/v1/', 'api_key': '27010a16-f313-4a31-8cff-9fe368b2f1d4', 'model': 'Qwen/Qwen2.5-32B-Instruct', 'newMessage': '9.9和9.11哪个大？'}
+[{'role': 'user', 'content': '9.9和9.11哪个大？'}]
+127.0.0.1 - - [14/Apr/2025 10:10:19] "POST /stream_openai_generate HTTP/1.1" 200 -
